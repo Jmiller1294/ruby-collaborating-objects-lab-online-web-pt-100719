@@ -8,7 +8,7 @@ def initialize(path)
 end
 
 def files
-
+  Dir.children(@path)
 end
 
 def size
