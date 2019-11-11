@@ -17,7 +17,7 @@ def artist=(artist_obj)
 end
 
 def self.new_by_filename(file)
-  name = file.split(" - ")[1]
+  info = file.split(" - ")[1]
   self.new(name)
 end
 
