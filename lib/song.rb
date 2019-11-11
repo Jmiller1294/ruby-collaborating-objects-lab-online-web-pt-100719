@@ -17,7 +17,7 @@ def artist=(artist_obj)
 end
 
 def new_by_filename(file)
-  file = Song.new
+  self = Song.new
 end
 
 def self.all
