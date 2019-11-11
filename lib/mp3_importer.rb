@@ -11,7 +11,5 @@ def files
   Dir.children(@path)
 end
 
-def size
-  self.length
-end
+
 end
