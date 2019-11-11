@@ -12,6 +12,6 @@ def files
 end
 
 def size
-  @path.length
+  self.length
 end
 end
