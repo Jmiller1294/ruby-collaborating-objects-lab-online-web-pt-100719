@@ -18,7 +18,7 @@ end
 
 def self.new_by_filename(file)
   name = new_by_filename.split(" - ")[1]
-  self.new = 
+  self.new(name)
 end
 
 def self.all
