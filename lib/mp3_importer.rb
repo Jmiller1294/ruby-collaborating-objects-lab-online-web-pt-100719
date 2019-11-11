@@ -11,5 +11,8 @@ def files
   Dir.children(@path)
 end
 
+def import
+
+end
 
 end
